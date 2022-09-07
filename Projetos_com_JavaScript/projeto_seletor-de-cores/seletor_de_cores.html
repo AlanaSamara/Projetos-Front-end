@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cores</title>
+
+  <style>
+
+    body{
+      margin: 0px;
+      padding: 0px;
+      transition-duration: 1.5s;
+    }
+
+    .container{
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    .conteudo{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      color: rgb(43, 43, 43);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+      font-weight: bold;
+      border: 3px solid black;
+    }
+
+    button{
+      height: 50px;
+      width: 50px;
+      border: 2px solid black;
+      margin: 10px;
+      padding: 0px;
+      border-radius: 50%;
+    }
+
+    button:hover{
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body id="recebe">
+
+  <div class="container">
+    <div class="conteudo">
+
+      <h1>Seletor de cores</h1>
+
+      <div>
+        <button onclick="enviar('white')" style="background-color: white"></button>
+        <button onclick="enviar('black')" style="background-color: black;"></button>
+        <button onclick="enviar('silver')" style="background-color: silver;"></button>
+        <button onclick="enviar('lightgrey')" style="background-color: lightgrey;"></button>
+      </div>
+
+      <div>
+        <button onclick="enviar('lightseagreen')" style="background-color:lightseagreen;"></button>
+        <button onclick="enviar('lightskyblue')" style="background-color:lightskyblue;"></button>
+        <button onclick="enviar('lightblue')" style="background-color:lightblue;"></button>
+        <button onclick="enviar('lightgreen')" style="background-color:lightgreen;"></button>
+      </div>
+
+      <div>
+        <button onclick="enviar('violet')" style="background-color: violet;"></button>
+        <button onclick="enviar('lightcoral')" style="background-color: lightcoral;"></button>
+        <button onclick="enviar('lightpink')" style="background-color: lightpink;"></button>
+        <button onclick="enviar('burlywood')" style="background-color:burlywood;"></button>
+      </div>
+
+      <div>
+        <button onclick="enviar('orange')" style="background-color: orange;"></button>
+        <button onclick="enviar('goldenrod')" style="background-color: goldenrod;"></button>
+        <button onclick="enviar('khaki')" style="background-color: khaki;"></button>
+        <button onclick="enviar('lightyellow')" style="background-color:lightyellow;"></button>
+      </div>
+    </div>
+  </div>
+  <script>
+    function enviar(nomeCor){
+      var novaCor = document.getElementById("recebe");
+      novaCor.style.background = nomeCor;
+    }
+  </script>
+</body>
+</html>

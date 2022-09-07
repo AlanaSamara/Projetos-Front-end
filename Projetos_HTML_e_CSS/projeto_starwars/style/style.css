@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --cor0: #FFFFFF;
+    --cor1: #000000;
+    --cor2: #88939d;
+    --cor3: #a81214;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: var(--cor1);
+    border-bottom: 0.4px solid var(--cor2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+header > img{
+    height: 78px;
+}
+
+header > nav{
+    display: flex;
+    gap: 45px;
+}
+
+header > nav > a{
+    font-size: 18px;
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: var(--cor3);
+}
+
+main{
+    background-image: url('../img/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-width: 30px;
+    max-width: 2600px;
+    margin: auto;
+    padding: 240px 90px 90px 90px;
+    color: var(--cor0);
+}
+
+
+main h1, h2{
+    font-family: var(--font-destaque);
+    line-height: 2.5em;
+}
+
+
+main p{
+    text-align: justify;
+    line-height: 2em;
+    font-family: var(--font-padrao);;
+}
+
+.primeira_cessao{
+    padding: 0px 0px 130px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:10%;
+}
+
+.estrela_da_morte{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.estrela_da_morte:hover{
+    box-shadow: 0 0 120px 1px var(--cor3);
+}
+.segunda_cessao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.segunda_cessao > h2{
+    border-top: 0.4px solid var(--cor2);
+    padding-top: 40px;
+}
+
+footer{
+    background-image: url('../img/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    text-align: center;
+}
+
+footer > p{
+    font-family: var(--font-destaque);
+    color: var(--cor2);
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: var(--cor3);
+}
+
+@media only screen and ( max-width: 800px ) { /* Configuração que vai ser aplicada quando a largura da tela for menor ou igual a 800px*/
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+}
+
+    header > nav{
+        display: flex;
+        gap: 15px;
+}
+
+    main{
+        padding: 239px 40px 90px 40px;
+}
+
+    .primeira_cessao{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        padding: 0px 0px 90px 0px;
+}
+}
+
