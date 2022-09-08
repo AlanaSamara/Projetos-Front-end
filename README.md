@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/alana-samara-732297208/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </div>
 
-#
+<hr>
 
 <h2>Sobre o repositório</h2>
 <p> Esse repositório foi criado com o intuito de conter todos os projetos Front-end que eu desenvolver, tanto para cursos quanto projetos pessoais e de trabalho, fiz ele para poder documentar meus projetos e vê-los funcionando. </p>
@@ -21,7 +21,7 @@
   <img align="center" alt="Alana-CSS" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
 </div>
 
-#
+<hr>
 
 <h2>Projetos</h2>
 • <a href="#star-wars">Projeto Star Wars</a><br>
@@ -29,7 +29,7 @@
 • <a href="#android">Projeto Android</a> - Desenvolvido para o curso de HTML e CSS do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em vídeo</a><br>
 • <a href="#cordel">Projeto Cordel</a> - Desenvolvido para o curso de HTML e CSS do <a href="https://www.cursoemvideo.com/" target="_blank">Curso em vídeo</a><br>
 
-#
+<hr>
 
 <h1 align="center">Star-Wars</h1>
 <div align="center">
@@ -42,7 +42,7 @@
 <img alt="home_01" src="https://user-images.githubusercontent.com/92688856/189205661-1341378e-ad19-40f9-8a5f-b417fec1f682.jpg">
 <img alt="home_02" src="https://user-images.githubusercontent.com/92688856/189205676-3a328860-419e-4273-b86a-b8d3d868df1c.jpg">
 
-#
+<hr>
 
 <h3>Preview</h3>
 
@@ -50,7 +50,7 @@
  <img alt="preview_starwars-gif" src="https://user-images.githubusercontent.com/92688856/189223971-19da47dc-d5ae-4d66-87fc-361bb0c1c772.gif">
 </div>
 
-#
+<hr>
 
 <h2>Versão Mobile</h2>
 
@@ -75,12 +75,12 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="#" target"_blank">Projeto Star Wars</a><br>
+• <a href="#" target="_blank">Projeto Star Wars</a><br>
 
 <h2> 💳 Creditos </h2>
-• <a href="https://github.com/AlanaSamara" target"_blank">Alana Samara</a><br>
+• <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
 
-#
+<hr>
 
 <h1 align="center">Seletor-de-cores</h1>
 <div align="center">
@@ -92,7 +92,7 @@
 <h3>Página do projeto</h3>
 <img alt="home_cores" src="https://user-images.githubusercontent.com/92688856/189205471-fbdc8b70-e159-4ad1-8003-6108469ff212.jpg">
 
-#
+<hr>
 
 <h3>Preview</h3>
 
@@ -100,7 +100,7 @@
  <img alt="preview_seletor-de-cores-gif" src="https://user-images.githubusercontent.com/92688856/189225244-67fe7bc2-13f2-4331-873d-a183cd2cac49.gif">
 </div>
 
-#
+<hr>
 
 <h2>Versão Mobile</h2>
 
@@ -125,12 +125,12 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="#" target"_blank">Projeto Seletor de cores</a><br>
+• <a href="#" target="_blank">Projeto Seletor de cores</a><br>
 
 <h2> 💳 Creditos </h2>
-• <a href="https://github.com/AlanaSamara" target"_blank">Alana Samara</a><br>
+• <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
 
-#
+<hr>
 
 <h1 align="center">Android</h1>  
 <div align="center">
@@ -146,7 +146,7 @@
 <img alt="home_android_04" src="https://user-images.githubusercontent.com/92688856/189205252-557032eb-6a03-41e2-bffd-cab9db47f51b.jpg">
 <img alt="home_android_05" src="https://user-images.githubusercontent.com/92688856/189205270-e474dd9d-ebde-4bd3-ad82-747a9a081be2.jpg">
 
-#
+<hr>
 
 <h3>Preview</h3>
 
@@ -154,7 +154,7 @@
  <img alt="preview_android-gif" src="https://user-images.githubusercontent.com/92688856/189222501-4da6b907-5d8f-4856-81c6-2b383dfd77b7.gif">
 </div>
 
-#
+<hr>
 
 <h2>Versão Mobile</h2>
 
@@ -169,7 +169,7 @@
 <img alt="home_android_07" src="https://user-images.githubusercontent.com/92688856/189210965-045a465b-bd1e-40c5-a445-f5cec2c4dea8.jpg">
 </div>
  
- #
+ <hr>
  
 <h3>Preview</h3>
 
@@ -177,7 +177,7 @@
  <img alt="preview_android-gif" src="https://user-images.githubusercontent.com/92688856/189220171-18fa6ddc-0780-4edc-b34c-1837b118886f.gif">
 </div>
 
-#
+<hr>
 
 <h4>Etapas do projeto</h4>
 
@@ -196,11 +196,11 @@
 • <a href="#">Projeto Android</a><br>
 
 <h2> 💳 Creditos </h2>
-• <a href="https://github.com/AlanaSamara" target"_blank">Alana Samara</a><br>
-• <a href="https://github.com/gustavoguanabara" target"_blank">Gustavo Guanabara</a><br>
-• <a href="https://www.cursoemvideo.com/sobre/" target"_blank">Curso em vídeo</a><br>
+• <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
+• <a href="https://github.com/gustavoguanabara" target="_blank">Gustavo Guanabara</a><br>
+• <a href="https://www.cursoemvideo.com/sobre/" target="_blank">Curso em vídeo</a><br>
 
-#
+<hr>
 
 <h1 align="center">Cordel</h1> 
 <div align="center"> 
@@ -221,7 +221,7 @@
 <img alt="page_cordel_09" src="https://user-images.githubusercontent.com/92688856/189191063-b0ebe7a1-0522-4ec4-bec5-13435bfc08c1.jpg">
 <img alt="page_cordel_10" src="https://user-images.githubusercontent.com/92688856/189191081-0b655e57-e254-4a79-b28e-f3e84ea7e8ed.jpg">
 
-#
+<hr>
 
 <h3>Preview</h3>
 
@@ -229,7 +229,7 @@
  <img alt="preview_cordel-gif" src="https://user-images.githubusercontent.com/92688856/189226760-3c66e200-ec87-4a69-8021-d1c6ca80b430.gif">
 </div>
 
-#
+<hr>
 
 <h2>Versão Mobile</h2>
 
@@ -242,7 +242,7 @@
 <img alt="page_cordel_05" src="https://user-images.githubusercontent.com/92688856/189211686-e433635f-f76e-43e0-a9cd-4aa6b07e7a60.jpg">
 </div>
 
-#
+<hr>
 
 <h3>Preview</h3>
 
@@ -250,7 +250,7 @@
  <img alt="preview_cordel-gif" src="https://user-images.githubusercontent.com/92688856/189226804-aa63ae6b-558f-4deb-aaa4-efde933a20e4.gif">
 </div>
 
-#
+<hr>
 
 <h4>Etapas do projeto</h4>
 
@@ -269,8 +269,8 @@
 • <a href="#">Projeto Cordel</a><br>
 
 <h2> 💳 Creditos </h2>
-• <a href="https://github.com/AlanaSamara" target"_blank">Alana Samara</a><br>
-• <a href="https://github.com/gustavoguanabara" target"_blank">Gustavo Guanabara</a><br>
-• <a href="https://www.cursoemvideo.com/sobre/" target"_blank">Curso em vídeo</a><br>
-• <a href="https://www.recantodasletras.com.br/poesias/3186743" target"_blank">Milton Duarte</a><br>
+• <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
+• <a href="https://github.com/gustavoguanabara" target="_blank">Gustavo Guanabara</a><br>
+• <a href="https://www.cursoemvideo.com/sobre/" target="_blank">Curso em vídeo</a><br>
+• <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a><br>
 
