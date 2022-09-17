@@ -75,7 +75,7 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="https://alanasamara.github.io/Projetos-Front-end/projetos-html-css/starwars/index.html" target="_blank">Projeto Star Wars</a><br>
+• <a href="https://alanasamara.github.io/Projetos-Front-end/starwars/index.html" target="_blank">Projeto Star Wars</a><br>
 
 <h2> 💳 Creditos </h2>
 • <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
@@ -125,7 +125,7 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="https://alanasamara.github.io/Projetos-Front-end/projetos-javascript/seletor-de-cores/seletor_de_cores.html" target="_blank">Projeto Seletor de cores</a><br>
+• <a href="https://alanasamara.github.io/Projetos-Front-end/seletor-de-cores/seletor_de_cores.html" target="_blank">Projeto Seletor de cores</a><br>
 
 <h2> 💳 Creditos </h2>
 • <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
@@ -193,7 +193,7 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="https://alanasamara.github.io/Projetos-Front-end/projetos-html-css/android/index.html">Projeto Android</a><br>
+• <a href="https://alanasamara.github.io/Projetos-Front-end/android/index.html">Projeto Android</a><br>
 
 <h2> 💳 Creditos </h2>
 • <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
@@ -266,7 +266,7 @@
 </div>
 
 <h2> 🔗 Link para acessar o projeto</h2>
-• <a href="https://alanasamara.github.io/Projetos-Front-end/projetos-html-css/cordel/index.html">Projeto Cordel</a><br>
+• <a href="https://alanasamara.github.io/Projetos-Front-end/cordel/index.html">Projeto Cordel</a><br>
 
 <h2> 💳 Creditos </h2>
 • <a href="https://github.com/AlanaSamara" target="_blank">Alana Samara</a><br>
