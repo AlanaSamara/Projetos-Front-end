@@ -18,7 +18,7 @@ body{
 }
 
 .conteudo{
-  width: 304px;
+  width: 310px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -46,6 +46,7 @@ hr{
 
 .conteudo > div{
   padding: 5px;
+  width: 310;
 }
 
 button{
