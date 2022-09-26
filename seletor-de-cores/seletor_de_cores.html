@@ -32,14 +32,20 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 1.1em;
       font-weight: bold;
-      border: 3px solid black;
+      border: 1px solid rgba(5, 5, 5, 0.315);
+      box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.123);
+    }
+
+    .conteudo > div{
+      padding: 5px;
     }
 
     button{
       height: 50px;
       width: 50px;
-      border: 2px solid black;
       margin: 10px;
+      border: 1px solid rgb(94, 94, 94);
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
       padding: 0px;
       border-radius: 50%;
     }
@@ -55,7 +61,7 @@
   <div class="container">
     <div class="conteudo">
 
-      <h1>Seletor de cores</h1>
+      <h1>Seletor de cores <hr></h1>
 
       <div>
         <button onclick="enviar('white')" style="background-color: white"></button>
