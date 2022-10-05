@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/jogo.css">
+
+  <title>Caça Palavras</title>
+</head>
+<body>
+
+  <main>
+
+    <h1>Caça Palavras</h1>
+
+    <div class="grid">
+      <div class="card-group">
+        <button class="card1" onclick="enviar2('#7FB77E')">A</button>
+        <div class="card"><p>V</p></div>
+        <div class="card"><p>E</p></div>
+        <div class="card"><p>D</p></div>
+        <div class="card"><P>D</P></div>
+        <div class="card"><P>E</P></div>
+      </div>
+      <div class="card-group">
+        <button class="card2" onclick="enviar3('#7FB77E')">C</button>
+        <div class="card"><P>J</P></div>
+        <div class="card14" onclick="enviar15('#7FB77E')">N</div>
+        <div class="card"><P>Y</P></div>
+        <div class="card"><P>U</P></div>
+        <div class="card"><P>F</P></div>
+      </div>
+      <div class="card-group">
+        <div class="card3" onclick="enviar4('#7FB77E')">E</div>
+        <div class="card"><P>A</P></div>
+        <div class="card15" onclick="enviar16('#7FB77E')">A</div>
+        <div class="card"><P>E</P></div>
+        <div class="card"><P>Z</P></div>
+        <div class="card"><P>J</P></div>
+      </div>
+      <div class="card-group">
+        <div class="card4" onclick="enviar5('#7FB77E')">I</div>
+        <div class="card"><P>Y</P></div>
+        <div class="card16" onclick="enviar17('#7FB77E')">M</div>
+        <div class="card"><P>J</P></div>
+        <div class="card7" onclick="enviar8('#7FB77E')">C</div>
+        <div class="card"><P>H</P></div>
+      </div>
+      <div class="card-group">
+        <div class="card5" onclick="enviar6('#7FB77E')">T</div>
+        <div class="card"><P>T</P></div>
+        <div class="card17" onclick="enviar18('#7FB77E')">O</div>
+        <div class="card"><P>S</P></div>
+        <div class="card8" onclick="enviar9('#7FB77E')">O</div>
+        <div class="card"><P>G</P></div>
+      </div>
+      <div class="card-group">
+        <div class="card6" onclick="enviar7('#7FB77E')">A</div>
+        <div class="card"><P>S</P></div>
+        <div class="card18" onclick="enviar19('#7FB77E')">R</div>
+        <div class="card"><P>E</P></div>
+        <div class="card9" onclick="enviar10('#7FB77E')">M</div>
+        <div class="card"><P>L</P></div>
+      </div>
+
+      <div class="card-group">
+        <div class="card"><P>O</P></div>
+        <div class="card"><P>X</P></div>
+        <div class="card19" onclick="enviar20('#7FB77E')">A</div>
+        <div class="card"><P>A</P></div>
+        <div class="card10" onclick="enviar11('#7FB77E')">I</div>
+        <div class="card"><P>Q</P></div>
+      </div>
+
+      <div class="card-group">
+        <div class="card"><P>H</P></div>
+        <div class="card"><P>N</P></div>
+        <div class="card20" onclick="enviar21('#7FB77E')">R</div>
+        <div class="card"><P>E</P></div>
+        <div class="card11" onclick="enviar12('#7FB77E')">G</div>
+        <div class="card"><P>K</P></div>
+      </div>
+
+      <div class="card-group">
+        <div class="card"><P>O</P></div>
+        <div class="card"><P>H</P></div>
+        <div class="card"><P>N</P></div>
+        <div class="card"><P>Z</P></div>
+        <div class="card12" onclick="enviar13('#7FB77E')">O</div>
+        <div class="card"><P>V</P></div>
+      </div>
+
+      <div class="card-group">
+        <div class="card"><P>T</P></div>
+        <div class="card"><P>A</P></div>
+        <div class="card"><P>V</P></div>
+        <div class="card"><P>W</P></div>
+        <div class="card13" onclick="enviar14('#7FB77E')">?</div>
+        <div class="card"><P>Y</P></div>
+      </div>
+
+      <div class="card-group">
+        <div class="card"><P>A</P></div>
+        <div class="card"><P>B</P></div>
+        <div class="card"><P>W</P></div>
+        <div class="card"><P>N</P></div>
+        <div class="card"><P>M</P></div>
+        <div class="card"><P>A</P></div>
+      </div>
+    </div>
+
+
+  <script>
+
+    function enviar2(cor){
+      var novaCor = document.querySelector(".card1");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar3(cor){
+      var novaCor = document.querySelector(".card2");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar4(cor){
+      var novaCor = document.querySelector(".card3");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar5(cor){
+      var novaCor = document.querySelector(".card4");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar6(cor){
+      var novaCor = document.querySelector(".card5");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar7(cor){
+      var novaCor = document.querySelector(".card6");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar8(cor){
+      var novaCor = document.querySelector(".card7");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar9(cor){
+      var novaCor = document.querySelector(".card8");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar10(cor){
+      var novaCor = document.querySelector(".card9");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar11(cor){
+      var novaCor = document.querySelector(".card10");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar12(cor){
+      var novaCor = document.querySelector(".card11");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar13(cor){
+      var novaCor = document.querySelector(".card12");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar14(cor){
+      var novaCor = document.querySelector(".card13");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar15(cor){
+      var novaCor = document.querySelector(".card14");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar16(cor){
+      var novaCor = document.querySelector(".card15");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar17(cor){
+      var novaCor = document.querySelector(".card16");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar18(cor){
+      var novaCor = document.querySelector(".card17");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar19(cor){
+      var novaCor = document.querySelector(".card18");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar20(cor){
+      var novaCor = document.querySelector(".card19");
+      novaCor.style.background = cor;    
+    }
+
+    function enviar21(cor){
+      var novaCor = document.querySelector(".card20");
+      novaCor.style.background = cor;    
+    }
+
+
+  </script>
+
+</body>
+</html>
