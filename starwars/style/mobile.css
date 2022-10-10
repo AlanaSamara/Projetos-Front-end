@@ -17,32 +17,57 @@
     padding: 0px;
 }
 
-body{
+body, html{
     background-color: black;
 }
 
-header{
-    position: fixed;
-    width: 100vw;
-    background-color: var(--cor1);
-    border-bottom: 0.4px solid var(--cor2);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 18px;
+body{
+    background-image: url('../img/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-header > img{
+header img{
     height: 78px;
 }
 
-header > nav{
-    display: flex;
-    gap: 45px;
+.menu-g{
+    display: none;
 }
 
-header > nav > a{
+.menu-mobile{
+    width: 100vw;
+    position: fixed;
+    background-color: var(--cor1);
+}
+.menu-respo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 60px 18px 60px;
+    border-bottom: 0.4px solid var(--cor2);
+}
+
+#icon{
+    color: var(--cor0);
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+#icon:hover{
+    color: var(--cor3);
+}
+
+.mostrar{
+    display: none;
+}
+
+.mostrar > nav > a{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 20px;
     font-size: 18px;
     font-family: var(--font-destaque);
     font-weight: bold;
@@ -50,20 +75,14 @@ header > nav > a{
     text-decoration: none;
 }
 
-nav > a:hover{
+.mostrar > nav > a:hover{
     color: var(--cor3);
 }
 
 main{
-    background-image: url('../img/fundo1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    min-width: 30px;
-    max-width: 2600px;
+    display: block;
     margin: auto;
-    padding: 240px 90px 90px 90px;
+    padding: 166px 40px 77px 40px;
     color: var(--cor0);
 }
 
@@ -81,12 +100,12 @@ main p{
 }
 
 .primeira_cessao{
-    padding: 0px 0px 130px 0px;
+    padding: 0px 0px 90px 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap:10%;
+    gap:90px;
 }
 
 .estrela_da_morte{
@@ -135,29 +154,3 @@ footer > p > a{
 footer a:hover{
     color: var(--cor3);
 }
-
-@media only screen and ( max-width: 800px ) { /* Configuração que vai ser aplicada quando a largura da tela for menor ou igual a 800px*/
-    header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-}
-
-    header > nav{
-        display: flex;
-        gap: 15px;
-}
-
-    main{
-        padding: 239px 40px 90px 40px;
-}
-
-    .primeira_cessao{
-        display: flex;
-        flex-direction: column;
-        gap: 90px;
-        padding: 0px 0px 90px 0px;
-}
-}
-
