@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  .imagem{
+    width: 60vw;
+    display: block;
+    color: #6E65FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-right: 20px;
+  }
+
+  .imagem h2{
+    margin-bottom: 10px;
+  }
+
+  .imagem p{
+    font-size: 1.3em;
+  }
+
+  .imagem img{
+    width: 250px;
+    padding-top: 40px;
+  }
+
+  .avatar{
+    display: block;
+    width: 120px;
+  }
+
+  .avatar-mobile{
+    display: none;
+  }
+}
