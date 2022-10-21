@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: white;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.telefone{
+    display: none;
+}
+
+.container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.foto{
+    width: 100px;
+    border-radius: 50%;
+    padding: 12px 0px;
+}
+
+.perfil > p{
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.perfil > p > a{
+    color: white;
+}
+
+a{
+    color: dodgerblue;
+}
+
+.alternativa{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.alternativa > p{
+    color: grey;
+}
+
+
+.botoes > p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.botoes > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.im-button{
+    width: 140px;
+    cursor: pointer;
+}

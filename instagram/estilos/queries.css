@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+  body{
+    background-color: ghostwhite;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+  }
+
+
+  .telefone{
+    display: block;
+  }
+
+  .telefone > img{
+    width: 280px;
+  }
+
+  .container{
+    width: 350px;
+  }
+  
+  .perfil{
+    background-color: white;
+    margin-bottom: 5px;
+    border: 1px solid #c5c5c5;
+  }
+
+  .alternativa{
+    background-color: white;
+    border: 1px solid #c5c5c5;
+  }
+
+}
