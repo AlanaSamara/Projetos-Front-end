@@ -57,12 +57,12 @@ li > a{
   padding: 5px;
   background-color: var(--darck-blue);
   border-radius: 50px;
-  transition: background-color 1s ease-in-out;
+  
 }
 .atual{
   height: 60px;
   color: var(--orange);
-  transition: all 1s ease-in-out;
+
 }
 
 .atual > img{
@@ -70,7 +70,7 @@ li > a{
   padding: 10px;
   border-radius: 50%;
   background-color: var(--orange);
-  transition: height 1s ease-in-out;
+  
 }
 
 
