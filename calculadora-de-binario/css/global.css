@@ -51,7 +51,12 @@ li > a{
   row-gap: 5px;
 }
 
-/* Estilo do link atual do menu */
+
+li > a > img{
+  height: 20px;
+}
+
+/* Estilo do link atual do menu - o link da página atual selecionada pelo usuário tera o estilo diferente */
 
 .latual{
   padding: 5px;
@@ -71,9 +76,4 @@ li > a{
   border-radius: 50%;
   background-color: var(--orange);
   
-}
-
-
-li > a > img{
-  height: 20px;
 }
