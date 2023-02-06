@@ -4,19 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Calculadora de Binário</title>
 </head>
-<body>
+<body>  
 
-  <nav>
+  <nav id="nav">
+    <button id="btn-mobile"><span></span></button>
+    <h2>Oque deseja fazer agora?</h2>
     <ul>
-      <li class="latual">
-
-        <a class="atual" href="index.html"> <img src="img/home-icon.svg" alt="Inicio Icone"> Inicio</a>
-
-      </li>
+      <li class="linkAtual"><a href="index.html"> <img src="img/home-icon.svg"> Inicio</a></li>
 
       <li><a href="estudos.html"> <img src="img/book-icon.svg" alt="Livro Icone"> Estudos</a></li>
 
@@ -24,14 +21,14 @@
 
       <li><a href=""> <img src="img/calc-icon.svg" alt="Operações Icone"> Operações</a></li>
 
-      <li><a href=""> <img src="img/frame-grid-icon.svg" alt=" Tabela Icone"> Tabela</a></li>
+      <li><a href=""> <img src="img/table-icon.svg" alt=" Tabela Icone"> Tabela</a></li>
     </ul>
   </nav>
 
   <div class="initial-container">
 
     <div class="first">
-      <div>
+      <div class="image">
         <img src="img/binary-code-image.svg" alt="Ilustração de um programador">
       </div>
       <h1>
@@ -48,9 +45,37 @@
 
   </div>
 
-  <footer>
+  <div class="second-container">
 
+    <div class="descobrir">
+      <div><img src="img/book-orange.svg" alt="Imagem de livro"></div>
+      <h3>Introdução</h3>
+      <p>Uma introdução aos principais sistemas numéricos, contento conceitos importantes e exemplos de operações com binário.</p>
+    </div>
+    
+    <div class="descobrir">
+      <div><img src="img/convert-orange.svg" alt="Imagem do Icone de conversão"></div>
+      <h3>Introdução</h3>
+      <p>Uma introdução aos principais sistemas numéricos, contento conceitos importantes e exemplos de operações com binário.</p>
+    </div>
+    <div class="descobrir">
+      <div><img src="img/calc-orange.svg" alt="Imagem de operações matematicas"></div>
+      <h3>Introdução</h3>
+      <p>Uma introdução aos principais sistemas numéricos, contento conceitos importantes e exemplos de operações com binário.</p>
+    </div>
+    <div class="descobrir">
+      <div><img src="img/table-orange.svg" alt="Imagem de tabela"></div>
+      <h3>Introdução</h3>
+      <p>Uma introdução aos principais sistemas numéricos, contento conceitos importantes e exemplos de operações com binário.</p>
+    </div>
+
+  </div>
+
+  <footer>
+  todos os direitos reservados 
   </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
 </html>
