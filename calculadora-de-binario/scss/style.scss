@@ -21,7 +21,8 @@ body{
   align-items: center;
   background-color: $light-blue;
   color: $white;
-  box-shadow: 0px 5px 3px rgba(87, 87, 87, 0.425);
+  text-align: start;
+  box-shadow: 0px 5px 3px #00589238;
   .image{
     padding: 0px 30px;
     display: flex;
@@ -29,11 +30,11 @@ body{
     align-items: flex-end;
     border-bottom: 1px solid $white;
     img{
-      width: max(160px, 23vw);
+      width: max(180px, 23vw);
     }
   }
   h1{
-    font-size: max(29px, 4vw);
+    font-size: max(30px, 4vw);
     margin: 20px 0px 10px 0px;
   }
 }
@@ -43,9 +44,10 @@ body{
   width: 100%;
   background-color: $white;
   color: $darck-blue;
-  font-size: max(.7rem, 2vw);
+  font-size: max(.73rem, 2vw);
   text-align: center;
-  padding-top: 45px;
+  display: flex;
+  justify-content: center;
   h2{
     display: flex;
     align-items: center;
@@ -59,7 +61,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 50px;
+  gap: 50px;
   .descobrir{
     width: 250px;
     color: $darck-blue;

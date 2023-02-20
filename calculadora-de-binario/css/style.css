@@ -120,7 +120,8 @@ body {
   align-items: center;
   background-color: #005792;
   color: #F6F6E9;
-  box-shadow: 0px 5px 3px rgba(87, 87, 87, 0.425);
+  text-align: start;
+  box-shadow: 0px 5px 3px rgba(0, 88, 146, 0.2196078431);
 }
 .first .image {
   padding: 0px 30px;
@@ -130,10 +131,10 @@ body {
   border-bottom: 1px solid #F6F6E9;
 }
 .first .image img {
-  width: max(160px, 23vw);
+  width: max(180px, 23vw);
 }
 .first h1 {
-  font-size: max(29px, 4vw);
+  font-size: max(30px, 4vw);
   margin: 20px 0px 10px 0px;
 }
 
@@ -143,9 +144,10 @@ body {
   width: 100%;
   background-color: #F6F6E9;
   color: #13334C;
-  font-size: max(0.7rem, 2vw);
+  font-size: max(0.73rem, 2vw);
   text-align: center;
-  padding-top: 45px;
+  display: flex;
+  justify-content: center;
 }
 .second h2 {
   display: flex;
@@ -159,7 +161,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 50px;
+  gap: 50px;
 }
 .second-container .descobrir {
   width: 250px;
