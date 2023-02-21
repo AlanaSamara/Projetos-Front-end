@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 // Importando configurações globais e de menu
 @import 'global.scss';
 
@@ -9,50 +10,65 @@ body{
 .initial-container{
   height: 100vh;
   width: 100vw;
-}
-.first{
-  z-index: 2;
-  height: 80%;
-  width: 100%;
-  padding:30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: $light-blue;
-  color: $white;
-  text-align: start;
-  box-shadow: 0px 5px 3px #00589238;
-  .image{
-    padding: 0px 30px;
+
+  .first{
+    z-index: 2;
+    height: 80%;
+    width: 100%;
+    padding:30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    border-bottom: 1px solid $white;
-    img{
-      width: max(180px, 23vw);
+    align-items: center;
+    background-color: $light-blue;
+    color: $white;
+    box-shadow: 0px 5px 3px #00589238;
+
+    .image{
+      padding: 0px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border-bottom: 1px solid $white;
+      img{
+        width: 180px;
+      }
     }
   }
-  h1{
-    font-size: max(30px, 4vw);
-    margin: 20px 0px 10px 0px;
+  .alinhar-texto{
+    margin: 3%;
+
+    h1{
+      font-size: max(30px, 4vw);
+      margin: 20px 0px 10px 0px;
+      text-align: start;
+    }
+
+    p{
+      font-size: max(15px, 1.2vw);
+    }
   }
 }
+
 .second{
   margin-top: 5px;
   height: calc( 20% - 5px );
   width: 100%;
   background-color: $white;
   color: $darck-blue;
-  font-size: max(.73rem, 2vw);
+  font-size: max(.71rem, 2vw);
   text-align: center;
-  display: flex;
-  justify-content: center;
+  padding-top: 45px;
   h2{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 6px;
+
+    img{
+      width: max(1.3rem, 2.1vw);
+    }
   }
 }
 
@@ -62,6 +78,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
+
   .descobrir{
     width: 250px;
     color: $darck-blue;
@@ -70,6 +87,8 @@ body{
     align-items: center;
     text-align: center;
     row-gap: 10px;
+    padding: 15px;
+
     div{
       width: fit-content;
       border: 6px solid $orange;
@@ -78,11 +97,13 @@ body{
       display: flex;
       align-items: center;
       justify-content: center;
+
       img{
         width: max(80px, 8vw);
       }
     }
   }
+
 }
 
 footer{
@@ -93,3 +114,11 @@ footer{
   margin-top: 60px;
 }
 
+@media screen and (min-width: 370px) {
+  
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+
+}

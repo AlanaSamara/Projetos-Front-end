@@ -19,14 +19,14 @@ nav {
 nav button {
   align-self: flex-end;
   display: flex;
-  padding: 15px 20px;
+  padding: 20px 25px;
   background-color: rgba(19, 51, 76, 0.9098039216);
   border: none;
   transition: 0.3s;
 }
 nav button span {
   border-top: 2px solid #F6F6E9;
-  width: 20px;
+  width: 25px;
 }
 nav button span::after, nav button span::before {
   display: block;
@@ -108,8 +108,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
-
-.first {
+.initial-container .first {
   z-index: 2;
   height: 80%;
   width: 100%;
@@ -120,22 +119,28 @@ body {
   align-items: center;
   background-color: #005792;
   color: #F6F6E9;
-  text-align: start;
   box-shadow: 0px 5px 3px rgba(0, 88, 146, 0.2196078431);
 }
-.first .image {
+.initial-container .first .image {
   padding: 0px 30px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   border-bottom: 1px solid #F6F6E9;
 }
-.first .image img {
-  width: max(180px, 23vw);
+.initial-container .first .image img {
+  width: 180px;
 }
-.first h1 {
+.initial-container .alinhar-texto {
+  margin: 3%;
+}
+.initial-container .alinhar-texto h1 {
   font-size: max(30px, 4vw);
   margin: 20px 0px 10px 0px;
+  text-align: start;
+}
+.initial-container .alinhar-texto p {
+  font-size: max(15px, 1.2vw);
 }
 
 .second {
@@ -144,16 +149,19 @@ body {
   width: 100%;
   background-color: #F6F6E9;
   color: #13334C;
-  font-size: max(0.73rem, 2vw);
+  font-size: max(0.71rem, 2vw);
   text-align: center;
-  display: flex;
-  justify-content: center;
+  padding-top: 45px;
 }
 .second h2 {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 6px;
+}
+.second h2 img {
+  width: max(1.3rem, 2.1vw);
 }
 
 .second-container {
@@ -171,6 +179,7 @@ body {
   align-items: center;
   text-align: center;
   row-gap: 10px;
+  padding: 15px;
 }
 .second-container .descobrir div {
   width: fit-content;
@@ -191,6 +200,13 @@ footer {
   color: #F6F6E9;
   text-align: center;
   margin-top: 60px;
+}
+
+@media screen and (min-width: 370px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
